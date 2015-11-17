@@ -1,0 +1,3 @@
+[submodule "SmartNote/mdpsplitview"]
+	path = SmartNote/mdpsplitview
+	url = https://github.com/mdiep/MDPSplitView

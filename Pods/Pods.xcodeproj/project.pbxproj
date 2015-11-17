@@ -1,0 +1,1083 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060CC9D5DE30F0C8764569E4793E7DE6 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D46091C62608F46C0E051A6072E98F /* AppKit.framework */; };
+		09C54D827051B15CFE1DE40025B3800E /* MASLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = D87022D03FDD45C4C66C39C28567CFD2 /* MASLocalization.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0DAA3E743335F78C977A7E523D24E592 /* RFOverlayScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F7755C7E52810D4361F0458DBEAF66 /* RFOverlayScrollView.m */; };
+		1EFA842F25DB0842363729B64A41D21A /* MASShortcutBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C718AE92AE6BB9A6E825B6664ED097 /* MASShortcutBinder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		210062E63EDD796FD512D97EB99669EB /* MASShortcutValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C6AA163C7D441F2E78A44179670D230 /* MASShortcutValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23350A586AB7436FAA9AAB64E784F3B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABA69F0221C659DB9B227618EF7F342 /* Cocoa.framework */; };
+		263AFBA332EC1C34AD3D8464D8BB88CB /* MASShortcut-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0286E41F9B667D994A087444410B0EBE /* MASShortcut-dummy.m */; };
+		2B77143FF61EA337ECFB79EBFE3E098E /* RFOverlayScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C26F2273C95B3113F4D2F3FDA91C229C /* RFOverlayScrollView-dummy.m */; };
+		2FEF37741CA12D82F5AC920659EB1BCE /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8ED597FDD0D3322AD927A572B31AD25B /* ja.lproj */; };
+		31BEC666A1B3076A8188498584955F6A /* RFOverlayScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DF76DAA5AA4FA7B9BA8C2D27CC570D /* RFOverlayScroller.m */; };
+		339D41F1E59D212C2A66A761B6A99D79 /* MASShortcutMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCFC260F2E7D9B84A0F341D76368861 /* MASShortcutMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		358812FEC60475F49345C8F7D07CE61E /* MASHotKey.h in Headers */ = {isa = PBXBuildFile; fileRef = A10B24B91CCE6A83C3BEC4A73C09993D /* MASHotKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39CA2258A579B4E1A94D02618D9F4748 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABA69F0221C659DB9B227618EF7F342 /* Cocoa.framework */; };
+		438355D74FE0EAD9C90317C8413FEFB1 /* MASLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = EE816514A6CA8BCF267008D60AAA2BDE /* MASLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C59514B3444E67C8C9886F60B67DB5 /* RFOverlayScroller.h in Headers */ = {isa = PBXBuildFile; fileRef = 453CD4514D595DA21C244EE5725F5498 /* RFOverlayScroller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AB651AF882D7114711D54EFC73122D9 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 44FB109BA21598C38FE22B117BCC6AE7 /* it.lproj */; };
+		52053E404F6964EB10DE028137760208 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABA69F0221C659DB9B227618EF7F342 /* Cocoa.framework */; };
+		52D4D9AE06FFF92BA64105C1EBBF8CF1 /* MASShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = C00649A01842659E4E07DF44F36156C3 /* MASShortcut.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5E32B98647AB07456B828A21156B63C9 /* MASDictionaryTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 322E05BD35C4DE5E3E350043F5C59EA3 /* MASDictionaryTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6D589DCFB93C0CB5FEE1E87A59F22544 /* RFOverlayScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0DE45F4742684680CE1E7C8447F832F /* RFOverlayScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C3BF0B521E0AE010F33DFE41C31DD8B /* MASShortcutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A84F105640D5DDB4B43BACFF86EA6B /* MASShortcutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD33A460EAD78A9CF0D8B98F241CF77 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5E838A48F5583E36B4378DDDBF46975B /* en.lproj */; };
+		8370679C0A71CE8C39958FA0C0B8A8AE /* SwiftyUserDefaults-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 031D2912B98F36F4F8DBA47091E3E280 /* SwiftyUserDefaults-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E1549E095785DA0353A94D3A5A3A0A1 /* MASKeyCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4317DA46073D372035822274413C72ED /* MASKeyCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95CEFC408C39E5316C9580094A174054 /* MASShortcutView+Bindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BAD6721128E9671B83850660FB5BDE /* MASShortcutView+Bindings.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9F9BFA6440B20760AFA19711FDF35817 /* MASShortcut.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01EF2664C2AC46CA8B5459616023371E /* MASShortcut.bundle */; };
+		AA9C13D2E5085E71A20175247EB89127 /* MASDictionaryTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = E22527FBD7AD538CA4C9FCABBCFC4A7E /* MASDictionaryTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABBCBA26C3882C61741562D23FDD54B9 /* MASShortcut.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B9F1742F5877DA220B5F23E92C42C5 /* MASShortcut.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B109B9B137ED2E64B5C35E192A71AD3A /* SwiftyUserDefaults-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BF681A2AABC1D782435B2DD94B0FBC /* SwiftyUserDefaults-dummy.m */; };
+		B79BFE632B89F3C3370A6A664F662DAB /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E90D579AE5ABD7AD47A290ECB8F8B6CE /* fr.lproj */; };
+		BB3341B54392C53EBA3E940B68F235B9 /* MASShortcutBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3D0A42F04E721C5B1167905008368E /* MASShortcutBinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04B73BC066EEB163E5172DAC9B3F179 /* MASShortcutValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A473717A362A3F6910AA1DFE1342BCEA /* MASShortcutValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C9F83AE94AB52EA45E4017413F4997FA /* MASHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C6AEE8A4F37B10BAA21F9557C67E79 /* MASHotKey.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CA16D0C724C65421785FCE7031921B59 /* Pods-SmartNote-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E18D9250012B93112F5568442A299C6 /* Pods-SmartNote-dummy.m */; };
+		D424BF16F7D25D141F614EB61D9A755C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABA69F0221C659DB9B227618EF7F342 /* Cocoa.framework */; };
+		D4D247189146539A84CA3FA201D496AE /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3C847B108B5036F53018F5B8B96593A /* de.lproj */; };
+		D7B36734EE26DA97F49C3AC01DA7E09D /* MASShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A8156E9AC4F684481D86285F6A8185 /* MASShortcutView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D7EFA91879223B283C8B8E5FF2E5CE1D /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF5AB06F9E602A2B27867F150C8E65 /* SwiftyUserDefaults.swift */; };
+		DA30BCD4969B8775FAE4A8B14AE429E0 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 665D1F89DBC541DFA808A55D9F52A882 /* cs.lproj */; };
+		DE3E282764C63B8BE1C744E5C76735D7 /* Pods-SmartNote-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95DACB35999D5709DAB29002B30D9B45 /* Pods-SmartNote-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1653A2B00479E16B02DCA95D4A58C21 /* MASShortcutView+Bindings.h in Headers */ = {isa = PBXBuildFile; fileRef = FE17F57F4DB4C36CC3AD508600FBD3F2 /* MASShortcutView+Bindings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A53E43DF8DF282EB80F565431A146C /* MASShortcutMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AE042CBA7098E4226C02D1ED56B552 /* MASShortcutMonitor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F4E3F76EA9B369F441C57D3B048D1371 /* MASShortcut-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD462ED99A5D42A06F76B9EB5D4CB7B /* MASShortcut-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61E8C2C245D932A5D57614348C448AD /* RFOverlayScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85435B018CB8FB0BCB6994BFE6A28D67 /* RFOverlayScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8170B01D946014ECA0CF7945C7518F2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BBAA9881FF63C61C04546866D9D60A /* Carbon.framework */; };
+		FA7A8B2AC84DD056F958C56885252BE7 /* Shortcut.h in Headers */ = {isa = PBXBuildFile; fileRef = D72F024560F509D50B2A4CE01ACB786D /* Shortcut.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB0969990AB964EBDE6E7BE49145513A /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BD8C3938D8417719C4FFD51F76879 /* es.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10E96CAEF20793A5C55026156D526ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B510D40536FCCFF2A7CCA742F5118A;
+			remoteInfo = MASShortcut;
+		};
+		76725D3C33E8EB830588B1EE3308F063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F025A3D1015202694C690C63AC9ED552;
+			remoteInfo = RFOverlayScrollView;
+		};
+		8D8393428B8EBAD9332FD70EE63F6424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7DCB5231CDAA14591D022F9A7F57602;
+			remoteInfo = "MASShortcut-MASShortcut";
+		};
+		AE8438BF8D85E64B01FEFFCF97DCB81C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429434E5F6DF8E380C1DB53F342DF769;
+			remoteInfo = SwiftyUserDefaults;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EF2664C2AC46CA8B5459616023371E /* MASShortcut.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MASShortcut.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0286E41F9B667D994A087444410B0EBE /* MASShortcut-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MASShortcut-dummy.m"; sourceTree = "<group>"; };
+		031D2912B98F36F4F8DBA47091E3E280 /* SwiftyUserDefaults-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-umbrella.h"; sourceTree = "<group>"; };
+		05F508FD2FCAC4A9F3FE10DAD871AD9E /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		0FDABAD0A6CB8338AED8D04B99A24821 /* MASShortcut-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASShortcut-prefix.pch"; sourceTree = "<group>"; };
+		115DD1016CB8A31BBA7B5A40B8201EA9 /* MASShortcut.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MASShortcut.modulemap; sourceTree = "<group>"; };
+		13A2F12B0D2505C74B4E7AEB213D4CA8 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA493CE4AF642D68DEEBABAE4A48251 /* Pods-SmartNote-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartNote-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E18D9250012B93112F5568442A299C6 /* Pods-SmartNote-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartNote-dummy.m"; sourceTree = "<group>"; };
+		1E5BD8C3938D8417719C4FFD51F76879 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = es.lproj; sourceTree = "<group>"; };
+		20D2407F6503445064A1E7FBB4BCDB5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24BA88C18391801C49215F13F0257B83 /* RFOverlayScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RFOverlayScrollView.xcconfig; sourceTree = "<group>"; };
+		279EDFA2E403C9185BA4AF9CB1F3453C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312A18AD169DC57A34D5FB21266B1508 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322E05BD35C4DE5E3E350043F5C59EA3 /* MASDictionaryTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASDictionaryTransformer.m; path = Framework/MASDictionaryTransformer.m; sourceTree = "<group>"; };
+		38D46091C62608F46C0E051A6072E98F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		3C6AA163C7D441F2E78A44179670D230 /* MASShortcutValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASShortcutValidator.h; path = Framework/MASShortcutValidator.h; sourceTree = "<group>"; };
+		4317DA46073D372035822274413C72ED /* MASKeyCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASKeyCodes.h; path = Framework/MASKeyCodes.h; sourceTree = "<group>"; };
+		43A8156E9AC4F684481D86285F6A8185 /* MASShortcutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASShortcutView.m; path = Framework/MASShortcutView.m; sourceTree = "<group>"; };
+		44FB109BA21598C38FE22B117BCC6AE7 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = it.lproj; sourceTree = "<group>"; };
+		453CD4514D595DA21C244EE5725F5498 /* RFOverlayScroller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFOverlayScroller.h; path = RFOverlayScrollView/RFOverlayScroller.h; sourceTree = "<group>"; };
+		45BAD6721128E9671B83850660FB5BDE /* MASShortcutView+Bindings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MASShortcutView+Bindings.m"; path = "Framework/MASShortcutView+Bindings.m"; sourceTree = "<group>"; };
+		47CFE1558E8AC233825B04FD631CA855 /* Pods-SmartNote.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartNote.modulemap"; sourceTree = "<group>"; };
+		4A96BDC9F900FEB5FFBAA37BB7805AA9 /* Pods-SmartNote-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartNote-acknowledgements.plist"; sourceTree = "<group>"; };
+		52E16D7CCE5433C49364F160E6DDEDD8 /* MASShortcut.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MASShortcut.xcconfig; sourceTree = "<group>"; };
+		55C6AEE8A4F37B10BAA21F9557C67E79 /* MASHotKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASHotKey.m; path = Framework/MASHotKey.m; sourceTree = "<group>"; };
+		5A870842D49C70ABB34CDFD6BE3BBFD7 /* RFOverlayScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RFOverlayScrollView.modulemap; sourceTree = "<group>"; };
+		5E3D0A42F04E721C5B1167905008368E /* MASShortcutBinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASShortcutBinder.h; path = Framework/MASShortcutBinder.h; sourceTree = "<group>"; };
+		5E838A48F5583E36B4378DDDBF46975B /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		5F5FC2B9D9E8D6180020BCCF1EE94F6B /* RFOverlayScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFOverlayScrollView-prefix.pch"; sourceTree = "<group>"; };
+		65A323CD194DAB11B43B0E26473FF3BD /* Pods-SmartNote-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartNote-resources.sh"; sourceTree = "<group>"; };
+		65EF5AB06F9E602A2B27867F150C8E65 /* SwiftyUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyUserDefaults.swift; path = SwiftyUserDefaults/SwiftyUserDefaults.swift; sourceTree = "<group>"; };
+		665D1F89DBC541DFA808A55D9F52A882 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = cs.lproj; sourceTree = "<group>"; };
+		6E622868D5073130B875B3F367960922 /* RFOverlayScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFOverlayScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD462ED99A5D42A06F76B9EB5D4CB7B /* MASShortcut-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASShortcut-umbrella.h"; sourceTree = "<group>"; };
+		74C718AE92AE6BB9A6E825B6664ED097 /* MASShortcutBinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASShortcutBinder.m; path = Framework/MASShortcutBinder.m; sourceTree = "<group>"; };
+		79A074E31E9E2C2B6B5A88911FF1C661 /* Pods-SmartNote-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartNote-frameworks.sh"; sourceTree = "<group>"; };
+		83D6679A9C512F932558D0A84AB08245 /* Pods-SmartNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartNote.debug.xcconfig"; sourceTree = "<group>"; };
+		84B9F1742F5877DA220B5F23E92C42C5 /* MASShortcut.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASShortcut.h; path = Framework/MASShortcut.h; sourceTree = "<group>"; };
+		85435B018CB8FB0BCB6994BFE6A28D67 /* RFOverlayScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFOverlayScrollView.h; path = RFOverlayScrollView/RFOverlayScrollView.h; sourceTree = "<group>"; };
+		8C08EC29EABF703BC49A18FF83FF342F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED597FDD0D3322AD927A572B31AD25B /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = ja.lproj; sourceTree = "<group>"; };
+		8FCFC260F2E7D9B84A0F341D76368861 /* MASShortcutMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASShortcutMonitor.h; path = Framework/MASShortcutMonitor.h; sourceTree = "<group>"; };
+		95A84F105640D5DDB4B43BACFF86EA6B /* MASShortcutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASShortcutView.h; path = Framework/MASShortcutView.h; sourceTree = "<group>"; };
+		95DACB35999D5709DAB29002B30D9B45 /* Pods-SmartNote-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartNote-umbrella.h"; sourceTree = "<group>"; };
+		A10B24B91CCE6A83C3BEC4A73C09993D /* MASHotKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASHotKey.h; path = Framework/MASHotKey.h; sourceTree = "<group>"; };
+		A2252F7F32559898F5C005D811795057 /* SwiftyUserDefaults.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyUserDefaults.modulemap; sourceTree = "<group>"; };
+		A473717A362A3F6910AA1DFE1342BCEA /* MASShortcutValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASShortcutValidator.m; path = Framework/MASShortcutValidator.m; sourceTree = "<group>"; };
+		A4F22BFDCCA4CADA1478C92D644DFE43 /* MASShortcut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MASShortcut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BBAA9881FF63C61C04546866D9D60A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+		AABA69F0221C659DB9B227618EF7F342 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		B3C847B108B5036F53018F5B8B96593A /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = de.lproj; sourceTree = "<group>"; };
+		B76A5BBE31952C5FDB96275C02D79B6F /* SwiftyUserDefaults.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyUserDefaults.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C00649A01842659E4E07DF44F36156C3 /* MASShortcut.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASShortcut.m; path = Framework/MASShortcut.m; sourceTree = "<group>"; };
+		C26F2273C95B3113F4D2F3FDA91C229C /* RFOverlayScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RFOverlayScrollView-dummy.m"; sourceTree = "<group>"; };
+		C3FD101C74C768DBA7D148C8D53DFBD5 /* Pods_SmartNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F7755C7E52810D4361F0458DBEAF66 /* RFOverlayScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFOverlayScrollView.m; path = RFOverlayScrollView/RFOverlayScrollView.m; sourceTree = "<group>"; };
+		C7BF681A2AABC1D782435B2DD94B0FBC /* SwiftyUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyUserDefaults-dummy.m"; sourceTree = "<group>"; };
+		D72F024560F509D50B2A4CE01ACB786D /* Shortcut.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Shortcut.h; path = Framework/Shortcut.h; sourceTree = "<group>"; };
+		D87022D03FDD45C4C66C39C28567CFD2 /* MASLocalization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLocalization.m; path = Framework/MASLocalization.m; sourceTree = "<group>"; };
+		DF2D18A7EC9B81BCD4336279369E22EE /* SwiftyUserDefaults-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-prefix.pch"; sourceTree = "<group>"; };
+		E1DF76DAA5AA4FA7B9BA8C2D27CC570D /* RFOverlayScroller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFOverlayScroller.m; path = RFOverlayScrollView/RFOverlayScroller.m; sourceTree = "<group>"; };
+		E22527FBD7AD538CA4C9FCABBCFC4A7E /* MASDictionaryTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASDictionaryTransformer.h; path = Framework/MASDictionaryTransformer.h; sourceTree = "<group>"; };
+		E6AE042CBA7098E4226C02D1ED56B552 /* MASShortcutMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASShortcutMonitor.m; path = Framework/MASShortcutMonitor.m; sourceTree = "<group>"; };
+		E90D579AE5ABD7AD47A290ECB8F8B6CE /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = fr.lproj; sourceTree = "<group>"; };
+		EE816514A6CA8BCF267008D60AAA2BDE /* MASLocalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLocalization.h; path = Framework/MASLocalization.h; sourceTree = "<group>"; };
+		EFDC71D8B74C6204285A4838ADE23989 /* Pods-SmartNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartNote.release.xcconfig"; sourceTree = "<group>"; };
+		F0DE45F4742684680CE1E7C8447F832F /* RFOverlayScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFOverlayScrollView-umbrella.h"; sourceTree = "<group>"; };
+		FE17F57F4DB4C36CC3AD508600FBD3F2 /* MASShortcutView+Bindings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASShortcutView+Bindings.h"; path = "Framework/MASShortcutView+Bindings.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31630418AAB3E2CC51DEC2A0757BE4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060CC9D5DE30F0C8764569E4793E7DE6 /* AppKit.framework in Frameworks */,
+				F8170B01D946014ECA0CF7945C7518F2 /* Carbon.framework in Frameworks */,
+				D424BF16F7D25D141F614EB61D9A755C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1977E76BC49E3F7208E2F84293FA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CA2258A579B4E1A94D02618D9F4748 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		704FC455CE8D4203C475A63173470FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AE1E204007E0FAC1FCB8B93F2ED3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23350A586AB7436FAA9AAB64E784F3B3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A0F2D2CD74306649B83214880D6FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52053E404F6964EB10DE028137760208 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1DB0A3931CDCB0B9BB7CF4A3139A36 /* MASShortcut */ = {
+			isa = PBXGroup;
+			children = (
+				E22527FBD7AD538CA4C9FCABBCFC4A7E /* MASDictionaryTransformer.h */,
+				322E05BD35C4DE5E3E350043F5C59EA3 /* MASDictionaryTransformer.m */,
+				A10B24B91CCE6A83C3BEC4A73C09993D /* MASHotKey.h */,
+				55C6AEE8A4F37B10BAA21F9557C67E79 /* MASHotKey.m */,
+				4317DA46073D372035822274413C72ED /* MASKeyCodes.h */,
+				EE816514A6CA8BCF267008D60AAA2BDE /* MASLocalization.h */,
+				D87022D03FDD45C4C66C39C28567CFD2 /* MASLocalization.m */,
+				84B9F1742F5877DA220B5F23E92C42C5 /* MASShortcut.h */,
+				C00649A01842659E4E07DF44F36156C3 /* MASShortcut.m */,
+				5E3D0A42F04E721C5B1167905008368E /* MASShortcutBinder.h */,
+				74C718AE92AE6BB9A6E825B6664ED097 /* MASShortcutBinder.m */,
+				8FCFC260F2E7D9B84A0F341D76368861 /* MASShortcutMonitor.h */,
+				E6AE042CBA7098E4226C02D1ED56B552 /* MASShortcutMonitor.m */,
+				3C6AA163C7D441F2E78A44179670D230 /* MASShortcutValidator.h */,
+				A473717A362A3F6910AA1DFE1342BCEA /* MASShortcutValidator.m */,
+				95A84F105640D5DDB4B43BACFF86EA6B /* MASShortcutView.h */,
+				43A8156E9AC4F684481D86285F6A8185 /* MASShortcutView.m */,
+				FE17F57F4DB4C36CC3AD508600FBD3F2 /* MASShortcutView+Bindings.h */,
+				45BAD6721128E9671B83850660FB5BDE /* MASShortcutView+Bindings.m */,
+				D72F024560F509D50B2A4CE01ACB786D /* Shortcut.h */,
+				9E1AC3132BFA89200B38D9423CBC87E9 /* Resources */,
+				79659BBCA61AF4D59662151FF24D1795 /* Support Files */,
+			);
+			path = MASShortcut;
+			sourceTree = "<group>";
+		};
+		2F3D28785FFDDFBE69ABE12B681F02F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F508FD2FCAC4A9F3FE10DAD871AD9E /* Sparkle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C1FC1BB6E40417634AEEBE16EB6068E /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				2F3D28785FFDDFBE69ABE12B681F02F6 /* Frameworks */,
+				C9C5D3ADC086374BBF67FA7CA7D3B7A5 /* Resources */,
+			);
+			path = Sparkle;
+			sourceTree = "<group>";
+		};
+		77521157A5F32E81AF2C55A92F3A7910 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C08EC29EABF703BC49A18FF83FF342F /* Info.plist */,
+				A2252F7F32559898F5C005D811795057 /* SwiftyUserDefaults.modulemap */,
+				B76A5BBE31952C5FDB96275C02D79B6F /* SwiftyUserDefaults.xcconfig */,
+				C7BF681A2AABC1D782435B2DD94B0FBC /* SwiftyUserDefaults-dummy.m */,
+				DF2D18A7EC9B81BCD4336279369E22EE /* SwiftyUserDefaults-prefix.pch */,
+				031D2912B98F36F4F8DBA47091E3E280 /* SwiftyUserDefaults-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyUserDefaults";
+			sourceTree = "<group>";
+		};
+		79659BBCA61AF4D59662151FF24D1795 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				279EDFA2E403C9185BA4AF9CB1F3453C /* Info.plist */,
+				115DD1016CB8A31BBA7B5A40B8201EA9 /* MASShortcut.modulemap */,
+				52E16D7CCE5433C49364F160E6DDEDD8 /* MASShortcut.xcconfig */,
+				0286E41F9B667D994A087444410B0EBE /* MASShortcut-dummy.m */,
+				0FDABAD0A6CB8338AED8D04B99A24821 /* MASShortcut-prefix.pch */,
+				6FD462ED99A5D42A06F76B9EB5D4CB7B /* MASShortcut-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MASShortcut";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				96D996393384F21972E2DD81788EE22C /* Frameworks */,
+				A9060A1A5856E5BA5D9137D1458B5EE2 /* Pods */,
+				F8C1BC8F816E795E70AA4D3C87CE6CB3 /* Products */,
+				F5E32AEAD3B31ED235FB8D186AB947F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96D996393384F21972E2DD81788EE22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D2EDA8772A3856CB129EFE53C253563 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D2EDA8772A3856CB129EFE53C253563 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				38D46091C62608F46C0E051A6072E98F /* AppKit.framework */,
+				A7BBAA9881FF63C61C04546866D9D60A /* Carbon.framework */,
+				AABA69F0221C659DB9B227618EF7F342 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		9E1AC3132BFA89200B38D9423CBC87E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				665D1F89DBC541DFA808A55D9F52A882 /* cs.lproj */,
+				B3C847B108B5036F53018F5B8B96593A /* de.lproj */,
+				5E838A48F5583E36B4378DDDBF46975B /* en.lproj */,
+				1E5BD8C3938D8417719C4FFD51F76879 /* es.lproj */,
+				E90D579AE5ABD7AD47A290ECB8F8B6CE /* fr.lproj */,
+				44FB109BA21598C38FE22B117BCC6AE7 /* it.lproj */,
+				8ED597FDD0D3322AD927A572B31AD25B /* ja.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A09C2BEB0AE69A56B8411F4CA8B6B93E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D2407F6503445064A1E7FBB4BCDB5C /* Info.plist */,
+				5A870842D49C70ABB34CDFD6BE3BBFD7 /* RFOverlayScrollView.modulemap */,
+				24BA88C18391801C49215F13F0257B83 /* RFOverlayScrollView.xcconfig */,
+				C26F2273C95B3113F4D2F3FDA91C229C /* RFOverlayScrollView-dummy.m */,
+				5F5FC2B9D9E8D6180020BCCF1EE94F6B /* RFOverlayScrollView-prefix.pch */,
+				F0DE45F4742684680CE1E7C8447F832F /* RFOverlayScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RFOverlayScrollView";
+			sourceTree = "<group>";
+		};
+		A9060A1A5856E5BA5D9137D1458B5EE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F1DB0A3931CDCB0B9BB7CF4A3139A36 /* MASShortcut */,
+				FD1ED84ACB514EF65F9D023E98E258D6 /* RFOverlayScrollView */,
+				3C1FC1BB6E40417634AEEBE16EB6068E /* Sparkle */,
+				BDF66AE7E5BCC64ABB26C388FA1965CA /* SwiftyUserDefaults */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3D514D06588A5640764A2CEC978E51D /* Pods-SmartNote */ = {
+			isa = PBXGroup;
+			children = (
+				312A18AD169DC57A34D5FB21266B1508 /* Info.plist */,
+				47CFE1558E8AC233825B04FD631CA855 /* Pods-SmartNote.modulemap */,
+				1DA493CE4AF642D68DEEBABAE4A48251 /* Pods-SmartNote-acknowledgements.markdown */,
+				4A96BDC9F900FEB5FFBAA37BB7805AA9 /* Pods-SmartNote-acknowledgements.plist */,
+				1E18D9250012B93112F5568442A299C6 /* Pods-SmartNote-dummy.m */,
+				79A074E31E9E2C2B6B5A88911FF1C661 /* Pods-SmartNote-frameworks.sh */,
+				65A323CD194DAB11B43B0E26473FF3BD /* Pods-SmartNote-resources.sh */,
+				95DACB35999D5709DAB29002B30D9B45 /* Pods-SmartNote-umbrella.h */,
+				83D6679A9C512F932558D0A84AB08245 /* Pods-SmartNote.debug.xcconfig */,
+				EFDC71D8B74C6204285A4838ADE23989 /* Pods-SmartNote.release.xcconfig */,
+			);
+			name = "Pods-SmartNote";
+			path = "Target Support Files/Pods-SmartNote";
+			sourceTree = "<group>";
+		};
+		BDF66AE7E5BCC64ABB26C388FA1965CA /* SwiftyUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				65EF5AB06F9E602A2B27867F150C8E65 /* SwiftyUserDefaults.swift */,
+				77521157A5F32E81AF2C55A92F3A7910 /* Support Files */,
+			);
+			path = SwiftyUserDefaults;
+			sourceTree = "<group>";
+		};
+		C9C5D3ADC086374BBF67FA7CA7D3B7A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F5E32AEAD3B31ED235FB8D186AB947F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D514D06588A5640764A2CEC978E51D /* Pods-SmartNote */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8C1BC8F816E795E70AA4D3C87CE6CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01EF2664C2AC46CA8B5459616023371E /* MASShortcut.bundle */,
+				A4F22BFDCCA4CADA1478C92D644DFE43 /* MASShortcut.framework */,
+				C3FD101C74C768DBA7D148C8D53DFBD5 /* Pods_SmartNote.framework */,
+				6E622868D5073130B875B3F367960922 /* RFOverlayScrollView.framework */,
+				13A2F12B0D2505C74B4E7AEB213D4CA8 /* SwiftyUserDefaults.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD1ED84ACB514EF65F9D023E98E258D6 /* RFOverlayScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				453CD4514D595DA21C244EE5725F5498 /* RFOverlayScroller.h */,
+				E1DF76DAA5AA4FA7B9BA8C2D27CC570D /* RFOverlayScroller.m */,
+				85435B018CB8FB0BCB6994BFE6A28D67 /* RFOverlayScrollView.h */,
+				C4F7755C7E52810D4361F0458DBEAF66 /* RFOverlayScrollView.m */,
+				A09C2BEB0AE69A56B8411F4CA8B6B93E /* Support Files */,
+			);
+			path = RFOverlayScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F7F170BF886536D1424C71BF9A230E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9C13D2E5085E71A20175247EB89127 /* MASDictionaryTransformer.h in Headers */,
+				358812FEC60475F49345C8F7D07CE61E /* MASHotKey.h in Headers */,
+				8E1549E095785DA0353A94D3A5A3A0A1 /* MASKeyCodes.h in Headers */,
+				438355D74FE0EAD9C90317C8413FEFB1 /* MASLocalization.h in Headers */,
+				F4E3F76EA9B369F441C57D3B048D1371 /* MASShortcut-umbrella.h in Headers */,
+				ABBCBA26C3882C61741562D23FDD54B9 /* MASShortcut.h in Headers */,
+				BB3341B54392C53EBA3E940B68F235B9 /* MASShortcutBinder.h in Headers */,
+				339D41F1E59D212C2A66A761B6A99D79 /* MASShortcutMonitor.h in Headers */,
+				210062E63EDD796FD512D97EB99669EB /* MASShortcutValidator.h in Headers */,
+				F1653A2B00479E16B02DCA95D4A58C21 /* MASShortcutView+Bindings.h in Headers */,
+				7C3BF0B521E0AE010F33DFE41C31DD8B /* MASShortcutView.h in Headers */,
+				FA7A8B2AC84DD056F958C56885252BE7 /* Shortcut.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AEE12305E73382174214FC3349893CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3E282764C63B8BE1C744E5C76735D7 /* Pods-SmartNote-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB26F857446A14530851D9156A3D7077 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8370679C0A71CE8C39958FA0C0B8A8AE /* SwiftyUserDefaults-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE79CEC78FE4E9B75DC7A2B47CDA15EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C59514B3444E67C8C9886F60B67DB5 /* RFOverlayScroller.h in Headers */,
+				6D589DCFB93C0CB5FEE1E87A59F22544 /* RFOverlayScrollView-umbrella.h in Headers */,
+				F61E8C2C245D932A5D57614348C448AD /* RFOverlayScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		429434E5F6DF8E380C1DB53F342DF769 /* SwiftyUserDefaults */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E993F1830AB17E52377C587926585ED1 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */;
+			buildPhases = (
+				77DE63ACAA7EC305D927B64F379E6F34 /* Sources */,
+				D6A0F2D2CD74306649B83214880D6FAF /* Frameworks */,
+				DB26F857446A14530851D9156A3D7077 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyUserDefaults;
+			productName = SwiftyUserDefaults;
+			productReference = 13A2F12B0D2505C74B4E7AEB213D4CA8 /* SwiftyUserDefaults.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1B510D40536FCCFF2A7CCA742F5118A /* MASShortcut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63CC66E35B10101ACECC80183D13501 /* Build configuration list for PBXNativeTarget "MASShortcut" */;
+			buildPhases = (
+				B4A1858EEDE486E96518D1750E57A673 /* Sources */,
+				31630418AAB3E2CC51DEC2A0757BE4EA /* Frameworks */,
+				CBEECDE977F1EA8424BAF541013E52E7 /* Resources */,
+				1F7F170BF886536D1424C71BF9A230E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62F01E28B7643E47A9F1B7D65E4D680 /* PBXTargetDependency */,
+			);
+			name = MASShortcut;
+			productName = MASShortcut;
+			productReference = A4F22BFDCCA4CADA1478C92D644DFE43 /* MASShortcut.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F025A3D1015202694C690C63AC9ED552 /* RFOverlayScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D590713A350ECE3853193A30DDFD2484 /* Build configuration list for PBXNativeTarget "RFOverlayScrollView" */;
+			buildPhases = (
+				015EA30F4EBF39C8C186B3AAEF960D57 /* Sources */,
+				6D1977E76BC49E3F7208E2F84293FA62 /* Frameworks */,
+				EE79CEC78FE4E9B75DC7A2B47CDA15EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFOverlayScrollView;
+			productName = RFOverlayScrollView;
+			productReference = 6E622868D5073130B875B3F367960922 /* RFOverlayScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F147369D061A9A385AC358975F49A269 /* Pods-SmartNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70C535FC6B5460D0C3AE4DF34845C45 /* Build configuration list for PBXNativeTarget "Pods-SmartNote" */;
+			buildPhases = (
+				296AF31A22CADD4CD89A7CA5BCDEC492 /* Sources */,
+				90AE1E204007E0FAC1FCB8B93F2ED3DA /* Frameworks */,
+				3AEE12305E73382174214FC3349893CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6AB0DAFC1BAAD3F6BCF1F8EBA2C27E1 /* PBXTargetDependency */,
+				B565F13C64A817FFA29C4F40363FA6F8 /* PBXTargetDependency */,
+				B6F88374F5FEB5F788E603D4FCCEF4B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartNote";
+			productName = "Pods-SmartNote";
+			productReference = C3FD101C74C768DBA7D148C8D53DFBD5 /* Pods_SmartNote.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7DCB5231CDAA14591D022F9A7F57602 /* MASShortcut-MASShortcut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572AECA5DBA5B8AB0DC01C3400219809 /* Build configuration list for PBXNativeTarget "MASShortcut-MASShortcut" */;
+			buildPhases = (
+				885B572D79EBFAB403386D692C687E3F /* Sources */,
+				704FC455CE8D4203C475A63173470FF2 /* Frameworks */,
+				9592184232A719D31F74989BBA6FF65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MASShortcut-MASShortcut";
+			productName = "MASShortcut-MASShortcut";
+			productReference = 01EF2664C2AC46CA8B5459616023371E /* MASShortcut.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F8C1BC8F816E795E70AA4D3C87CE6CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B510D40536FCCFF2A7CCA742F5118A /* MASShortcut */,
+				F7DCB5231CDAA14591D022F9A7F57602 /* MASShortcut-MASShortcut */,
+				F147369D061A9A385AC358975F49A269 /* Pods-SmartNote */,
+				F025A3D1015202694C690C63AC9ED552 /* RFOverlayScrollView */,
+				429434E5F6DF8E380C1DB53F342DF769 /* SwiftyUserDefaults */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9592184232A719D31F74989BBA6FF65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA30BCD4969B8775FAE4A8B14AE429E0 /* cs.lproj in Resources */,
+				D4D247189146539A84CA3FA201D496AE /* de.lproj in Resources */,
+				7CD33A460EAD78A9CF0D8B98F241CF77 /* en.lproj in Resources */,
+				FB0969990AB964EBDE6E7BE49145513A /* es.lproj in Resources */,
+				B79BFE632B89F3C3370A6A664F662DAB /* fr.lproj in Resources */,
+				4AB651AF882D7114711D54EFC73122D9 /* it.lproj in Resources */,
+				2FEF37741CA12D82F5AC920659EB1BCE /* ja.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEECDE977F1EA8424BAF541013E52E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9BFA6440B20760AFA19711FDF35817 /* MASShortcut.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015EA30F4EBF39C8C186B3AAEF960D57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BEC666A1B3076A8188498584955F6A /* RFOverlayScroller.m in Sources */,
+				2B77143FF61EA337ECFB79EBFE3E098E /* RFOverlayScrollView-dummy.m in Sources */,
+				0DAA3E743335F78C977A7E523D24E592 /* RFOverlayScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		296AF31A22CADD4CD89A7CA5BCDEC492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA16D0C724C65421785FCE7031921B59 /* Pods-SmartNote-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DE63ACAA7EC305D927B64F379E6F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B109B9B137ED2E64B5C35E192A71AD3A /* SwiftyUserDefaults-dummy.m in Sources */,
+				D7EFA91879223B283C8B8E5FF2E5CE1D /* SwiftyUserDefaults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885B572D79EBFAB403386D692C687E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A1858EEDE486E96518D1750E57A673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E32B98647AB07456B828A21156B63C9 /* MASDictionaryTransformer.m in Sources */,
+				C9F83AE94AB52EA45E4017413F4997FA /* MASHotKey.m in Sources */,
+				09C54D827051B15CFE1DE40025B3800E /* MASLocalization.m in Sources */,
+				263AFBA332EC1C34AD3D8464D8BB88CB /* MASShortcut-dummy.m in Sources */,
+				52D4D9AE06FFF92BA64105C1EBBF8CF1 /* MASShortcut.m in Sources */,
+				1EFA842F25DB0842363729B64A41D21A /* MASShortcutBinder.m in Sources */,
+				F4A53E43DF8DF282EB80F565431A146C /* MASShortcutMonitor.m in Sources */,
+				C04B73BC066EEB163E5172DAC9B3F179 /* MASShortcutValidator.m in Sources */,
+				95CEFC408C39E5316C9580094A174054 /* MASShortcutView+Bindings.m in Sources */,
+				D7B36734EE26DA97F49C3AC01DA7E09D /* MASShortcutView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B565F13C64A817FFA29C4F40363FA6F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RFOverlayScrollView;
+			target = F025A3D1015202694C690C63AC9ED552 /* RFOverlayScrollView */;
+			targetProxy = 76725D3C33E8EB830588B1EE3308F063 /* PBXContainerItemProxy */;
+		};
+		B6F88374F5FEB5F788E603D4FCCEF4B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyUserDefaults;
+			target = 429434E5F6DF8E380C1DB53F342DF769 /* SwiftyUserDefaults */;
+			targetProxy = AE8438BF8D85E64B01FEFFCF97DCB81C /* PBXContainerItemProxy */;
+		};
+		D62F01E28B7643E47A9F1B7D65E4D680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MASShortcut-MASShortcut";
+			target = F7DCB5231CDAA14591D022F9A7F57602 /* MASShortcut-MASShortcut */;
+			targetProxy = 8D8393428B8EBAD9332FD70EE63F6424 /* PBXContainerItemProxy */;
+		};
+		D6AB0DAFC1BAAD3F6BCF1F8EBA2C27E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MASShortcut;
+			target = C1B510D40536FCCFF2A7CCA742F5118A /* MASShortcut */;
+			targetProxy = 10E96CAEF20793A5C55026156D526ABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10B2EE21B5D67EE2C819831CCC43832B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		19D6CFF9F0A1583AB7A2DFCAC9C2E3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76A5BBE31952C5FDB96275C02D79B6F /* SwiftyUserDefaults.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyUserDefaults/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyUserDefaults;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63016460F76445626D2C956FF247CC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E16D7CCE5433C49364F160E6DDEDD8 /* MASShortcut.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = MASShortcut;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6B968398C69729D3DCFD137A11DC7151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E16D7CCE5433C49364F160E6DDEDD8 /* MASShortcut.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/MASShortcut/MASShortcut-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MASShortcut/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/MASShortcut/MASShortcut.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MASShortcut;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79A8A436F5E83C73B50963A281C53C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFDC71D8B74C6204285A4838ADE23989 /* Pods-SmartNote.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartNote/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartNote/Pods-SmartNote.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SmartNote;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C07D96CC7C445E83983A6C6420BC692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C1810B07647716964A20A65592A42A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76A5BBE31952C5FDB96275C02D79B6F /* SwiftyUserDefaults.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyUserDefaults/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyUserDefaults;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92AE2A27EE18B769929EAB429A795390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E16D7CCE5433C49364F160E6DDEDD8 /* MASShortcut.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/MASShortcut/MASShortcut-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MASShortcut/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/MASShortcut/MASShortcut.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MASShortcut;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAF99F091BE63D0C271EC4B9428D180B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E16D7CCE5433C49364F160E6DDEDD8 /* MASShortcut.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = MASShortcut;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D7A4922329D7B66A9F79652246963732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BA88C18391801C49215F13F0257B83 /* RFOverlayScrollView.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RFOverlayScrollView/RFOverlayScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RFOverlayScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/RFOverlayScrollView/RFOverlayScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RFOverlayScrollView;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2631F0F946792D372D738456538D74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D6679A9C512F932558D0A84AB08245 /* Pods-SmartNote.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartNote/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartNote/Pods-SmartNote.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SmartNote;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD898D1FAD0E4D2C173699B6A53A74D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BA88C18391801C49215F13F0257B83 /* RFOverlayScrollView.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RFOverlayScrollView/RFOverlayScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RFOverlayScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/RFOverlayScrollView/RFOverlayScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RFOverlayScrollView;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B2EE21B5D67EE2C819831CCC43832B /* Debug */,
+				7C07D96CC7C445E83983A6C6420BC692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572AECA5DBA5B8AB0DC01C3400219809 /* Build configuration list for PBXNativeTarget "MASShortcut-MASShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF99F091BE63D0C271EC4B9428D180B /* Debug */,
+				63016460F76445626D2C956FF247CC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70C535FC6B5460D0C3AE4DF34845C45 /* Build configuration list for PBXNativeTarget "Pods-SmartNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2631F0F946792D372D738456538D74A /* Debug */,
+				79A8A436F5E83C73B50963A281C53C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C63CC66E35B10101ACECC80183D13501 /* Build configuration list for PBXNativeTarget "MASShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B968398C69729D3DCFD137A11DC7151 /* Debug */,
+				92AE2A27EE18B769929EAB429A795390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D590713A350ECE3853193A30DDFD2484 /* Build configuration list for PBXNativeTarget "RFOverlayScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A4922329D7B66A9F79652246963732 /* Debug */,
+				FD898D1FAD0E4D2C173699B6A53A74D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E993F1830AB17E52377C587926585ED1 /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D6CFF9F0A1583AB7A2DFCAC9C2E3B4 /* Debug */,
+				8C1810B07647716964A20A65592A42A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
