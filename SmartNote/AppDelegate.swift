@@ -8,6 +8,7 @@
 
 import Cocoa
 import Carbon
+import MASShortcut
 
 let MASObservingContext:UnsafeMutablePointer<Void> = UnsafeMutablePointer<Void>.alloc(1)
 
