@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BC241B3D212C4295D8746A1 /* Pods_SmartNoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586AA6E256774CBC47E905BD /* Pods_SmartNoteTests.framework */; };
+		28744CA9D3AD2972E2A43E9B /* Pods_SmartNoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE52344785F33CCD8C1B0E8D /* Pods_SmartNoteUITests.framework */; };
 		5B09282F1BF33BC300D5E78A /* SplitViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B09282E1BF33BC300D5E78A /* SplitViewAnimation.swift */; };
 		5B389F501BD803AF002F25CD /* IconToDataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B389F4F1BD803AF002F25CD /* IconToDataTransformer.swift */; };
 		5B389F631BD9311F002F25CD /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B389F611BD9311F002F25CD /* Note+CoreDataProperties.swift */; };
@@ -53,6 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A74EF986390B49414E3F4E8 /* Pods-SmartNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartNoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartNoteTests/Pods-SmartNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31EAA461AD2F3A569E3C1416 /* Pods-SmartNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartNoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartNoteTests/Pods-SmartNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		4115ED6AB0E04160540D0BF4 /* Pods-SmartNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartNoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartNoteUITests/Pods-SmartNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		586AA6E256774CBC47E905BD /* Pods_SmartNoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B09282E1BF33BC300D5E78A /* SplitViewAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewAnimation.swift; sourceTree = "<group>"; };
 		5B389F461BD7F62E002F25CD /* SmartNote 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SmartNote 2.xcdatamodel"; sourceTree = "<group>"; };
 		5B389F4F1BD803AF002F25CD /* IconToDataTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconToDataTransformer.swift; sourceTree = "<group>"; };
@@ -90,6 +96,8 @@
 		5BF2F76C1BCEF3B9002DF35A /* SupportedAttachments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportedAttachments.swift; sourceTree = "<group>"; };
 		8C1E6DAF582C30AFCC44F52E /* Pods_SmartNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55925106AB8A575C377DDDC /* Pods-SmartNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartNote/Pods-SmartNote.debug.xcconfig"; sourceTree = "<group>"; };
+		CE52344785F33CCD8C1B0E8D /* Pods_SmartNoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01B24B8D0466CD3D763A624 /* Pods-SmartNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartNoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartNoteUITests/Pods-SmartNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E24DC684679E2DC571EE0BC6 /* Pods-SmartNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartNote/Pods-SmartNote.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC241B3D212C4295D8746A1 /* Pods_SmartNoteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28744CA9D3AD2972E2A43E9B /* Pods_SmartNoteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +247,10 @@
 			children = (
 				A55925106AB8A575C377DDDC /* Pods-SmartNote.debug.xcconfig */,
 				E24DC684679E2DC571EE0BC6 /* Pods-SmartNote.release.xcconfig */,
+				2A74EF986390B49414E3F4E8 /* Pods-SmartNoteTests.debug.xcconfig */,
+				31EAA461AD2F3A569E3C1416 /* Pods-SmartNoteTests.release.xcconfig */,
+				4115ED6AB0E04160540D0BF4 /* Pods-SmartNoteUITests.debug.xcconfig */,
+				E01B24B8D0466CD3D763A624 /* Pods-SmartNoteUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -246,6 +260,8 @@
 			children = (
 				5B4FFB7F1BDF8B3600A7CFD2 /* MASShortcut.framework */,
 				8C1E6DAF582C30AFCC44F52E /* Pods_SmartNote.framework */,
+				586AA6E256774CBC47E905BD /* Pods_SmartNoteTests.framework */,
+				CE52344785F33CCD8C1B0E8D /* Pods_SmartNoteUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -277,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBA0D741BC42F04006BDBE4 /* Build configuration list for PBXNativeTarget "SmartNoteTests" */;
 			buildPhases = (
+				1318BA0710F723208A1B7844 /* Check Pods Manifest.lock */,
 				5BBA0D591BC42F04006BDBE4 /* Sources */,
 				5BBA0D5A1BC42F04006BDBE4 /* Frameworks */,
 				5BBA0D5B1BC42F04006BDBE4 /* Resources */,
+				E5E23A567825A8867EC77D0B /* Embed Pods Frameworks */,
+				0DF59A257A86F9938F158E41 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBA0D771BC42F04006BDBE4 /* Build configuration list for PBXNativeTarget "SmartNoteUITests" */;
 			buildPhases = (
+				FFDBC231747398F49C22606F /* Check Pods Manifest.lock */,
 				5BBA0D641BC42F04006BDBE4 /* Sources */,
 				5BBA0D651BC42F04006BDBE4 /* Frameworks */,
 				5BBA0D661BC42F04006BDBE4 /* Resources */,
+				600DC32074E457D4495F7D16 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,6 +416,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartNote/Pods-SmartNote-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		0DF59A257A86F9938F158E41 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartNoteTests/Pods-SmartNoteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1318BA0710F723208A1B7844 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		3CC5C534896F6BEB11A1308B /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,6 +459,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		600DC32074E457D4495F7D16 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartNoteUITests/Pods-SmartNoteUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7F4D676DD2EBE50DA7B2371C /* Embed Pods Frameworks */ = {
@@ -424,6 +490,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartNote/Pods-SmartNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E23A567825A8867EC77D0B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartNoteTests/Pods-SmartNoteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFDBC231747398F49C22606F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -618,6 +714,7 @@
 		};
 		5BBA0D751BC42F04006BDBE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A74EF986390B49414E3F4E8 /* Pods-SmartNoteTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -631,6 +728,7 @@
 		};
 		5BBA0D761BC42F04006BDBE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EAA461AD2F3A569E3C1416 /* Pods-SmartNoteTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -644,6 +742,7 @@
 		};
 		5BBA0D781BC42F04006BDBE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4115ED6AB0E04160540D0BF4 /* Pods-SmartNoteUITests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SmartNoteUITests/Info.plist;
@@ -657,6 +756,7 @@
 		};
 		5BBA0D791BC42F04006BDBE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01B24B8D0466CD3D763A624 /* Pods-SmartNoteUITests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SmartNoteUITests/Info.plist;
